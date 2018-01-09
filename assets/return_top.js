@@ -19,7 +19,27 @@ function scrollFunction() {
     }
 }
 
-jQuery("#btn-return-top").click(function() {
-    jQuery("html, body").animate({ scrollTop: 0 }, "slow");
-    return false;
-});
+// jQuery("#btn-return-top").click(function() {
+//     jQuery("html, body").animate({ scrollTop: 0 }, "slow");
+//     return false;
+// });
+
+var scrollme;
+scrollme = document.getElementById("btn-return-top");
+scrollme.addEventListener("click", runScroll, false)
+
+function runScroll() {
+    scrollTo(document.documentElement, 0, 300);
+}
+
+function scrollTo(element, to, duration) {
+    if (duration <= 0) return;
+    var difference = to - element.scrollTop;
+    var perTick = difference / duration * 10;
+
+    setTimeout(function() {
+        element.scrollTop = element.scrollTop + perTick;
+        if (element.scrollTop == to) return;
+        scrollTo(element, to, duration - 10);
+    }, 10);
+}

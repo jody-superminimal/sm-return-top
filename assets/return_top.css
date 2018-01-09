@@ -23,3 +23,8 @@
 #btn-return-top:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+#btn-return-top-arrow {
+    max-width: 24px;
+    height: auto;
+}
