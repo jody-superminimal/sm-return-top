@@ -28,8 +28,8 @@ add_action( 'wp_footer', 'sm_return_to_top_html' );
 function sm_return_to_top_html () {
 	echo '
 	<div id="btn-return-top" title="Go to top">
-		<svg xmlns="http://www.w3.org/2000/svg" width="864" height="1000">
-			<path d="M804 720L432 362 62 720c-17 15-34 15-50 0-16-16-16-33 0-50l396-390c17-17 33-17 48 0l396 390c16 17 16 34 0 50-17 15-33 15-48 0"/>
+		<svg id="btn-return-top-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 13">
+			<path d="M22.3333 12.5833L12 2.639 1.7222 12.5833c-.4814.4075-.9444.4075-1.3889 0-.4444-.4444-.4444-.9074 0-1.3889l11-10.8333c.4815-.4815.926-.4815 1.3334 0l11 10.8333c.4444.4815.4444.9445 0 1.389-.4815.4074-.926.4074-1.3334 0"/>
 		</svg>
 	</div>';
  }

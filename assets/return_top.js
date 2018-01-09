@@ -19,14 +19,8 @@ function scrollFunction() {
     }
 }
 
-// jQuery("#btn-return-top").click(function() {
-//     jQuery("html, body").animate({ scrollTop: 0 }, "slow");
-//     return false;
-// });
 
-var scrollme;
-scrollme = document.getElementById("btn-return-top");
-scrollme.addEventListener("click", runScroll, false)
+document.getElementById("btn-return-top").addEventListener("click", runScroll, false);
 
 function runScroll() {
     scrollTo(document.documentElement, 0, 300);

@@ -25,6 +25,9 @@
 }
 
 #btn-return-top-arrow {
-    max-width: 24px;
-    height: auto;
+    margin: 0 6.5px;
+}
+
+#btn-return-top-arrow path {
+    fill: #fff;
 }
