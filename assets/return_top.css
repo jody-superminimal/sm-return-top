@@ -1,0 +1,25 @@
+#btn-return-top {
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFF;
+    right: -60px;
+    bottom: 50px;
+    opacity: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ccc;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 9px 15px 9px;
+    position: fixed;
+    z-index: 100;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#btn-return-top:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
