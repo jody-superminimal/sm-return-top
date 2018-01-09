@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:     Return to Top
- * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
- * Author:          YOUR NAME HERE
- * Author URI:      YOUR SITE HERE
+ * Plugin URI:      https://github.com/jay-aye-see-kay/sm-return-top
+ * Description:     adds a return to top button
+ * Author:          Superminimal
+ * Author URI:      https://superminimal.com.au/
  * Text Domain:     sm-return-top
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         1.0.0
  *
  * @package         Sm_Return_Top
  */
