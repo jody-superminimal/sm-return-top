@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:     Sm Return Top
+ * Plugin Name:     Return to Top
  * Plugin URI:      PLUGIN SITE HERE
  * Description:     PLUGIN DESCRIPTION HERE
  * Author:          YOUR NAME HERE
