@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Return to Top
  * Plugin URI:      https://github.com/jay-aye-see-kay/sm-return-top
- * Description:     adds a return to top button
+ * Description:     Adds a return to top button
  * Author:          Superminimal
  * Author URI:      https://superminimal.com.au/
  * Text Domain:     sm-return-top
