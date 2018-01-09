@@ -9,4 +9,4 @@ To install into a WP site:
 * git clone --depth=1 https://github.com/jay-aye-see-kay/sm-return-top.git
 * wp plugin activate sm-return-top
 
-~Current Version:1.0~
+~Current Version:1.0.0~
