@@ -11,11 +11,9 @@ window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > actHeight || document.documentElement.scrollTop > actHeight) {
-        document.getElementById("btn-return-top").style.opacity = "1";
-        document.getElementById("btn-return-top").style.right = "20px";
+        document.getElementById("btn-return-top").classList.add("show");
     } else {
-        document.getElementById("btn-return-top").style.opacity = "0";
-        document.getElementById("btn-return-top").style.right = "-60px";
+        document.getElementById("btn-return-top").classList.remove("show");
     }
 }
 
