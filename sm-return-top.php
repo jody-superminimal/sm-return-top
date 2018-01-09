@@ -26,5 +26,5 @@ function sm_add_return_top_files() {
  */
 add_action( 'wp_footer', 'sm_return_to_top_html' );
 function sm_return_to_top_html () {
-	echo '<div id="btn-return-top" title="Go to top"><i class="icon-up-open-big"></i></div>';
+	echo '<div id="btn-return-top" title="Go to top"><img src="' . plugins_url( 'assets/up-open-big.svg', __FILE__ ) . '" /></div>';
  }
