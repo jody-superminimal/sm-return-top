@@ -43,7 +43,7 @@ function sm_return_to_top_html () {
 		'slug' => plugin_basename(__FILE__), // this is the slug of your plugin
 		'proper_folder_name' => 'sm-return-top', // this is the name of the folder your plugin lives in
 		'api_url' => 'https://api.github.com/repos/jay-aye-see-kay/sm-return-top', // the GitHub API url of your GitHub repo
-		'raw_url' => 'https://raw.github.com/ujay-aye-see-kay/sm-return-top/master', // the GitHub raw url of your GitHub repo
+		'raw_url' => 'https://raw.github.com/jay-aye-see-kay/sm-return-top/master', // the GitHub raw url of your GitHub repo
 		'github_url' => 'https://github.com/jay-aye-see-kay/sm-return-top', // the GitHub url of your GitHub repo
 		'zip_url' => 'https://github.com/jay-aye-see-kay/sm-return-top/zipball/master', // the zip url of the GitHub repo
 		'sslverify' => true, // whether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
