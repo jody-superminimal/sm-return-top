@@ -7,7 +7,7 @@
  * Author URI:      https://superminimal.com.au/
  * Text Domain:     sm-return-top
  * Domain Path:     /languages
- * Version:         1.0.2
+ * Version:         1.0.3
  *
  * @package         Sm_Return_Top
  */
