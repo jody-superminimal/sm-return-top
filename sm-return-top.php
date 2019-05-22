@@ -33,15 +33,3 @@ function sm_return_to_top_html () {
 		</svg>
 	</div>';
  }
-
-  /**
- * Add the updater
- */
-if( ! class_exists( 'Smashing_Updater' ) ){
-	include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
-}
-$updater = new Smashing_Updater( __FILE__ );
-$updater->set_username( 'jay-aye-see-kay' );
-$updater->set_repository( 'sm-return-top' );
-
-$updater->initialize();
